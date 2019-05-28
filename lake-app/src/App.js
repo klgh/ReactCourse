@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
-
 
 const App = ({ lakes }) => (
   <ul>
