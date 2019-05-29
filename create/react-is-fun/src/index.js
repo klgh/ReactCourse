@@ -1,23 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
 
 var style = {
-    backgroundColor: 'orange', 
-    color: 'white', 
-    fontFamily: 'Arial',
-}
-
-const title = React.createElement(
-    'ul',
-    {id: 'title', className: 'header', style: style},
-   React.createElement(
-       'li', 
-       {},
-       'Item on our list'
-   )
-)
+  backgroundColor: "orange",
+  color: "white",
+  fontFamily: "Arial"
+};
 
 ReactDOM.render(
-    title,
-    document.getElementById('root')
-)
+  <div style={style}>
+    <h1 id="heading">Hello World</h1>
+    <p>glad you're here</p>
+  </div>,
+  document.getElementById("root")
+);
